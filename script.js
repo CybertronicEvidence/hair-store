@@ -1,6 +1,6 @@
 let i = 0;
 let image = []
-let timeout = 3000
+let time = 3000
 
 image[0] = './img/cat-20b.jpg'
 image[1] = './img/etty-fidele-YYfzJhfNU14-unsplash.jpg'
@@ -20,7 +20,7 @@ function changeImg() {
         i = 0
     }
 
-    setTimeout('changeImg()', timeout);
+    setTimeout('changeImg()', time);
 }
 
 window.onload = changeImg
