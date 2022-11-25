@@ -355,11 +355,13 @@ ul {
     overflow: hidden;
     transition: max-height 0.5s ease 0s;
   }
-  .fa-bars {
+  /* .fa-bars {
     display: block;
     cursor: pointer;
     visibility: visible;
-  }
+    flex-direction: column;
+    justify-content: space-around;
+  } */
   .fa-cart-shopping {
     visibility: hidden;
   }

@@ -1,3 +1,5 @@
+// Slideshow
+
 let i = 0;
 let image = []
 let time = 3000
@@ -25,6 +27,7 @@ function changeImg() {
 
 window.onload = changeImg
 
+// Product Slide
 
 const productContainers = [...document.querySelectorAll('.product-container')];
 const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
@@ -42,6 +45,8 @@ productContainers.forEach((item, i) => {
         item.scrollLeft -= containerWidth;
     })
 })
+
+// Mobile Menu
 
 let menu = document.querySelector("#MenuItems");
 
