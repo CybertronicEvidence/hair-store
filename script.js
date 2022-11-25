@@ -42,3 +42,18 @@ productContainers.forEach((item, i) => {
         item.scrollLeft -= containerWidth;
     })
 })
+
+let menu = document.querySelector("#MenuItems");
+
+menu.style.maxHeight = "0px";
+
+function menutoggle(){
+    if(menu.style.maxHeight == "0px")
+        {
+           menu.style.maxHeight = "200px"
+        }
+    else
+        {
+           menu.style.maxHeight = "0px"
+        }
+}
