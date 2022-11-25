@@ -62,3 +62,16 @@ function menutoggle(){
            menu.style.maxHeight = "0px"
         }
 }
+
+let bars = document.querySelector('.fa-bars')
+let cancel = document.querySelector('.fa-x')
+
+bars.addEventListener('click', () => {
+    cancel.style.visibility = 'visible'
+    bars.style.visibility = 'hidden'
+})
+
+cancel.addEventListener('click', () => {
+    cancel.style.visibility = 'hidden'
+    bars.style.visibility = 'visible'
+})
